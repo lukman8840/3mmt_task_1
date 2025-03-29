@@ -1,55 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Metadata section: Defines character encoding, viewport settings, and title -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Links an external CSS file -->
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-
-    <!-- Header: Contains the website's title and navigation menu -->
     <header>
-        <h1>My Profile</h1> <!-- Main heading of the page -->
+        <h1>My Profile</h1>
         <nav>
-            <!-- Navigation: Provides links to different sections of the page -->
             <ul>
                 <li><a href="#about">About Me</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#features">Features</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main: Wraps the core content of the page -->
-    <main>
-        <!-- About Me Section: Introduces the user -->
-        <section id="about">
-            <h2>About Me</h2> <!-- Section heading -->
-            <img src="IMAGE.jpg" alt="Profile Picture"> <!-- Profile image -->
-            <p>Hi, I'm Lukman! I am passionate about web development 
-                and love creating simple, functional web pages. I enjoy 
-                problem-solving and learning new technologies.</p>
-        </section>
+    <section class="hero">
+        <h1>Welcome to My Profile</h1>
+        <p>Discover my journey and interests in web development.</p>
+        <a href="#features" class="cta">Learn More</a>
+    </section>
 
-        <!-- Hobbies Section: Lists personal hobbies -->
-        <section id="hobbies">
-            <h2>My Hobbies</h2> <!-- Section heading -->
-            <ul>
-                <li><strong>Coding:</strong> I love solving coding challenges and building web applications.</li>
-                <li><strong>Reading:</strong> I enjoy reading books on technology and personal development.</li>
-                <li><strong>Watching Football:</strong> I support my favorite teams and enjoy watching matches with friends.</li>
-            </ul>
-        </section>
-    </main>
+    <section id="features" class="features">
+        <div class="feature">
+            <img src="https://cdn-icons-png.flaticon.com/512/1024/1024183.png" alt="Coding Icon">
+            <h3>Coding</h3>
+            <p>Passionate about problem-solving and building web apps.</p>
+        </div>
+        <div class="feature">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828843.png" alt="Reading Icon">
+            <h3>Reading</h3>
+            <p>I enjoy books on technology and self-development.</p>
+        </div>
+        <div class="feature">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="Football Icon">
+            <h3>Football</h3>
+            <p>Watching and supporting my favorite teams is a hobby.</p>
+        </div>
+    </section>
 
-    <!-- Footer: Contains contact information -->
     <footer id="contact">
-        <h2>Contact Me</h2> <!-- Section heading -->
-        <p>Email: <a href="mailto:Lukmansaidmodibbo@gmail.com">Lukmansaidmodibbo@gmail.com</a></p> <!-- Email link -->
-        <p>Connect on <a href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank">LinkedIn</a></p> <!-- Social media link -->
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:Lukmansaidmodibbo@gmail.com">Lukmansaidmodibbo@gmail.com</a></p>
+        <p>Connect on <a href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank">LinkedIn</a></p>
     </footer>
-
 </body>
 </html>
